@@ -123,14 +123,14 @@ SUBSECOND_RE = re.compile('\.[0-9]+')
 # map from AWS region to EMR endpoint. See
 # http://docs.amazonwebservices.com/general/latest/gr/rande.html#emr_region
 REGION_TO_EMR_ENDPOINT = {
-    'us-east-1': 'elasticmapreduce.us-east-1.amazonaws.com',
-    'us-west-1': 'elasticmapreduce.us-west-1.amazonaws.com',
-    'us-west-2': 'elasticmapreduce.us-west-2.amazonaws.com',
-    'EU': 'elasticmapreduce.eu-west-1.amazonaws.com',  # for compatibility
-    'eu-west-1': 'elasticmapreduce.eu-west-1.amazonaws.com',
-    'ap-southeast-1': 'elasticmapreduce.ap-southeast-1.amazonaws.com',
-    'ap-northeast-1': 'elasticmapreduce.ap-northeast-1.amazonaws.com',
-    'sa-east-1': 'elasticmapreduce.sa-east-1.amazonaws.com',
+    'us-east-1': 'us-east-1.elasticmapreduce.amazonaws.com',
+    'us-west-1': 'us-west-1.elasticmapreduce.amazonaws.com',
+    'us-west-2': 'us-west-2.elasticmapreduce.amazonaws.com',
+    'EU': 'eu-west-1.elasticmapreduce.amazonaws.com',  # for compatibility
+    'eu-west-1': 'eu-west-1.elasticmapreduce.amazonaws.com',
+    'ap-southeast-1': 'ap-southeast-1.elasticmapreduce.amazonaws.com',
+    'ap-northeast-1': 'ap-northeast-1.elasticmapreduce.amazonaws.com',
+    'sa-east-1': 'sa-east-1.elasticmapreduce.amazonaws.com',
     '': 'elasticmapreduce.amazonaws.com',  # when no region specified
 }
 
